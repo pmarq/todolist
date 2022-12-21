@@ -2,8 +2,7 @@
   
   width: 100%;
   height: 100vh;
-  background-color: blueviolet;
-  border: 4px solid yellow;
+  background-color: rgb(215, 173, 255);
    
   display: flex;
   flex-direction: column;
@@ -13,7 +12,6 @@
 }
 
 .todoInputContainer{
-  border: 2px solid yellow;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,4 +29,21 @@
 .addBtn{
   width: 60px;
   height: 60px;
+  font-size: 28pt;
+}
+
+.addBtn:hover{
+  
+}
+
+
+.todoListContainer{
+  width: 600px;
+  height: 500px;
+  border: 12px solid rebeccapurple;
+  padding: 40px;
+}
+
+.toDo{
+  font-size: 20pt;
 }
